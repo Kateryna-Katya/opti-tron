@@ -1249,3 +1249,54 @@ a {
         transform: translateY(-15px) rotateX(5deg);
     }
 }
+/* --- LEGAL PAGES STYLES --- */
+.pages {
+    padding: 12rem 0 8rem;
+    min-height: 80vh;
+}
+
+.pages h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    background: var(--holo-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.pages h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.8rem;
+    margin: 2.5rem 0 1rem;
+    color: var(--text-main);
+}
+
+.pages p {
+    color: var(--text-muted);
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.pages ul {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.pages li {
+    color: var(--text-muted);
+    margin-bottom: 0.8rem;
+    position: relative;
+    list-style: disc;
+}
+
+@media (max-width: 768px) {
+    .pages h1 {
+        font-size: 2.2rem;
+    }
+
+    .pages h2 {
+        font-size: 1.5rem;
+    }
+}
