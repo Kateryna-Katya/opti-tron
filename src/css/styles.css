@@ -1259,10 +1259,11 @@ a {
     font-family: 'Syne', sans-serif;
     font-size: 3rem;
     margin-bottom: 2rem;
-    background: var(--holo-gradient);
+    background: linear-gradient(135deg, #e0e7ff 0%, #b754d3 50%, #296288 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+
 }
 
 .pages h2 {
